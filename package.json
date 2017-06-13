@@ -1,0 +1,32 @@
+{
+  "name": "idiomas",
+  "version": "0.1.0",
+  "description": "traductor de idiomas",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix25/test.git"
+  },
+  "keywords": [
+    "idomas",
+    "fundamento",
+    "javascript",
+    "js"
+  ],
+  "author": "luis-dev <felix_1108@hotmail.com> (https://www.twitter.com/felixALFM)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felix25/test/issues"
+  },
+  "homepage": "https://github.com/felix25/test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
